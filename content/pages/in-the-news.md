@@ -1,9 +1,11 @@
-Title: In the News
-Date: 2021-03-17 00:25
-Modified: 2022-02-23 13:50
-Author: Thomas Stucky
-Slug: in-the-news
-Status: published
+---
+author: Thomas Stucky
+date: 2021-03-17 00:25
+modified: 2022-02-23 13:50
+slug: in-the-news
+status: published
+title: In the News
+...
 
 <head>
   <link rel="stylesheet" href="{static}/styles/additional.css"/>

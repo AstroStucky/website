@@ -40,23 +40,15 @@ THEME = "graymill"
 ## TODO: try true sometime
 TYPOGRIFY = False
 
-# Plugins
-# PLUGINS = [
-#     "pelican.plugins.pandoc_reader"
-# ]
+# Enable Pandoc
+# Arguments passed into pandoc
+PANDOC_ARGS = [
+    "--mathjax"
+]
 
-# # Enable Pandoc
-# # Arguments passed into pandoc
-# PANDOC_ARGS = [
-#     "--mathjax"
-# ]
-
-# # Non-Pandoc Extensions that are not enabled by default in pandoc
-# #   https://pandoc.org/MANUAL.html#non-pandoc-extensions
-# PANDOC_EXTENSIONS = [
-#     "+abbreviations",
-#     "+backtick_code_blocks",
-#     "+emoji",
-#     "+implicit_figures",
-#     "-footnotes"
-# ]
+# Non-Pandoc Extensions that are not enabled by default in pandoc
+#   https://pandoc.org/MANUAL.html#non-pandoc-extensions
+PANDOC_EXTENSIONS = [
+    # "+backtick_code_blocks",
+    "+implicit_figures",
+]

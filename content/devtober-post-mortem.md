@@ -1,11 +1,13 @@
-Title: Devtober Post Mortem
-Date: 2020-11-04 22:09
-Author: Thomas Stucky
-Category: Game Development
-Tags: devtober, game jam, kuiper
-Slug: devtober-post-mortem
-Status: published
-Lang: en
+---
+author: Thomas Stucky
+category: Game Development
+date: 2020-11-04 22:09
+lang: en
+slug: devtober-post-mortem
+status: published
+tags: devtober, game jam, kuiper
+title: Devtober Post Mortem
+...
 
 # Objectives
 

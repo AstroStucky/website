@@ -1,9 +1,11 @@
-Title: Organically Partitioning Space
-Date: 2020-09-28 23:46
-Author: Thomas Stucky
-Category: Game Development
-Slug: organically-partitioning-space
-Status: hidden
+---
+author: Thomas Stucky
+category: Game Development
+date: 2020-09-28 23:46
+slug: organically-partitioning-space
+status: hidden
+title: Organically Partitioning Space
+...
 
 Start with an empty canvas. Randomly dot it with ink. You'll get something like this.
 

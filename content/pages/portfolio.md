@@ -1,8 +1,10 @@
-Title: Portfolio
-Date: 2021-11-15 15:33
-Author: Thomas Stucky
-Slug: portfolio
-Status: published
+---
+author: Thomas Stucky
+date: 2021-11-15 15:33
+slug: portfolio
+status: published
+title: Portfolio
+...
 
 ![]({static}/images/portfolio-collage.gif)
 

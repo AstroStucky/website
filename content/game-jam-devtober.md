@@ -1,10 +1,12 @@
-Title: Game Jam: Devtober
-Date: 2020-10-01 08:00
-Author: Thomas Stucky
-Category: Game Development
-Tags: devtober, game jam, kuiper
-Slug: game-jam-devtober
-Status: published
+---
+author: Thomas Stucky
+category: Game Development
+date: 2020-10-01 08:00
+slug: game-jam-devtober
+status: published
+tags: devtober, game jam, kuiper
+title: 'Game Jam: Devtober'
+...
 
 Finally dusting off this blog of mine with an announcement which I am very excited about. I will be participating in the [Devtober Game Jam](https://itch.io/jam/devtober-2020)!
 

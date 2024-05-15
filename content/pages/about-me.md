@@ -1,8 +1,10 @@
-Title: About Me
-Date: 2020-10-01 11:58
-Author: Thomas Stucky
-Slug: about-me
-Status: published
+---
+author: Thomas Stucky
+date: 2020-10-01 11:58
+slug: about-me
+status: published
+title: About Me
+...
 
 <head>
   <link rel="stylesheet" href="{static}/styles/additional.css"/>
@@ -19,9 +21,7 @@ Status: published
 
 ## Research Interests
 
-Investigates how robotics and artificial intelligence can assist in the search for life throughout the universe. While with the **SETI Institute** working at **NASA Ames Research Center** I participated in experiments to improve autonomous drilling in extraterrestrial environments such as Mars and Europa.[^1]
-
-[^1]: Test of footnotes
+Investigates how robotics and artificial intelligence can assist in the search for life throughout the universe. While with the **SETI Institute** working at **NASA Ames Research Center** I participated in experiments to improve autonomous drilling in extraterrestrial environments such as Mars and Europa.
 
 Presently, I contribute to an open-source virtual lander testbed for Europa, and other icy worlds, called [*Ocean Worlds Autonomy Testbed for Exploration Research & Simulation* (*OceanWATERS*)](https://github.com/nasa/ow_simulator#ocean-worlds-autonomy-testbed-for-exploration-research--simulation-oceanwaters). OceanWATERS enables researchers to develop lander autonomy to address the challenges of missions on icy worlds in out the outer solar system.
 

@@ -1,8 +1,10 @@
-Title: About Me
-Date: 2021-03-01 11:37
-Author: Thomas Stucky
-Slug: about-me-longform
-Status: hidden
+---
+author: Thomas Stucky
+date: 2021-03-01 11:37
+slug: about-me-longform
+status: hidden
+title: About Me
+...
 
 ![](http://astrostucky.com/wp/wp-content/uploads/2020/03/stucky-thomas-400x400-1.png){.wp-image-135 width="175" height="175"}
 

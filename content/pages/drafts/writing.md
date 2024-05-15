@@ -1,8 +1,10 @@
-Title: Writing Samples
-Date: 2015-12-19 06:45
-Author: Thomas Stucky
-Slug: writing
-Status: hidden
+---
+author: Thomas Stucky
+date: 2015-12-19 06:45
+slug: writing
+status: hidden
+title: Writing Samples
+...
 
 Included here are writing samples from my past projects.
 
