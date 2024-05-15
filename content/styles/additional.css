@@ -1,0 +1,20 @@
+.webPreview {
+  float: center;
+  display: inline-block;
+  border-style: inset;
+  border-radius: 5%;
+  width: 450px;
+  padding: 10px 10px 10px 10px;
+}
+
+.verticalAlign {
+  display: flex;
+  align-items: center;
+}
+
+.portrait {
+  float: left;
+  width: 250px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 50%
+}
