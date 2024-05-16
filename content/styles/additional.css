@@ -1,7 +1,6 @@
 .webPreview {
   float: center;
   display: inline-block;
-  border-style: inset;
   border-radius: 5%;
   width: 450px;
   padding: 10px 10px 10px 10px;
@@ -18,3 +17,21 @@
   padding: 20px 20px 20px 20px;
   border-radius: 50%
 }
+
+div.horizontalgap {
+  float: left;
+  overflow: hidden;
+  height: 1px;
+  width: 0px;
+}
+
+a.test:link {
+  color: none;
+}
+a.test:visited {
+  color: none;
+}
+a.test:hover {
+  color: none;
+}
+
