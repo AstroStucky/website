@@ -3,7 +3,7 @@ SITENAME = 'AstroStucky'
 SITEURL = ""
 
 PATH = "content"
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'documents']
 
 TIMEZONE = 'America/Denver'
 
@@ -19,24 +19,34 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+# Links
+GITHUB_URL = "http://github.com/AstroStucky"
 
+LINKS_WIDGET_NAME = "LINKS"
+LINKS = [
+    ("Resume/CV", "/documents/ThomasStucky_resume.pdf"),
+    ("GitHub", GITHUB_URL),
+    ("Mastodon", "http://mastodon.gamedev.place/@starry"),
+    ("Itch.io", "http://starrynitegames.itch.io/"),
+    ("LinkedIn", "http://linkedin.com/in/astrostucky/")
+]
+MENUITEMS = [
+  ('Blog','/')
+]
+
+## TODO: add Mastodon icon to Graymill theme
 # Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
-GITHUB_URL = "https://github.com/AstroStucky"
+# SOCIAL_WIDTH_NAME = "TEST"
+# SOCIAL = [
+#     ("LinkedIn", "http://linkedin.com/in/astrostucky/"),
+#     # ,
+#     # ("GitHub", "github.com/AstroStucky")
+# ]
 
 # Appearance
 DEFAULT_PAGINATION = False
-THEME = "graymill"
+DISPLAY_CATEGORIES_ON_MENU = False
+THEME = "./graymill"
 ## TODO: try true sometime
 TYPOGRIFY = False
 
@@ -50,5 +60,16 @@ PANDOC_ARGS = [
 #   https://pandoc.org/MANUAL.html#non-pandoc-extensions
 PANDOC_EXTENSIONS = [
     # "+backtick_code_blocks",
-    "+implicit_figures",
+    "+implicit_figures"
 ]
+
+## TODO: Experiment with making a page the home page instead of blog
+# SITEURL = '/blog'
+# OUTPUT_PATH = 'output/blog'
+# PAGE_URL = '../{slug}.html'
+# PAGE_SAVE_AS = '../{slug}.html'
+# DISPLAY_PAGES_ON_MENU = False
+# DISPLAY_CATEGORIES_ON_MENU = False
+# MENUITEMS = [('Home', '/'), ('Blog', '/blog/')]
+
+# DELETE_OUTPUT_DIRECTORY = True
