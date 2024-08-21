@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+SITE_URL=astrostucky.com
+SITE_PATH=/var/www/html/
+OUTPUT_DIR=output/
+
+if [ ! -d "content" ]; then
+  echo "Content directory missing!";
+  exit 1;
+fi
+
+# build website locally
+pelican content -s publishconf.py
+
+if [ ! -d "$OUTPUT_DIR" ]; then
+  echo "Pelican output directory missing!";
+  exit 1;
+fi
+
+# set more strict file permissions on output directory
+find $OUTPUT_DIR -type d -exec chmod 755 {} \;
+find $OUTPUT_DIR -type f -exec chmod 644 {} \;
+
+# push to server
+## WARNING: with --delete anything beside website files in the server's /var/www/html will be deleted!
+## NOTE: --checksum is expensive server-side, consider removing as site gets larger
+rsync -av --checksum --delete $OUTPUT_DIR $SITE_URL:$SITE_PATH
