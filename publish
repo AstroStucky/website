@@ -19,6 +19,13 @@ if [ ! -d "$OUTPUT_DIR" ]; then
   exit 1;
 fi
 
+# update and convert robots.txt to block nasty AI companies
+cd ai.robots.txt
+python code/robots.py --update
+python code/robots.py --convert
+cp ./robots.txt ../output/robots.txt
+cd ..
+
 # set more strict file permissions on output directory
 find $OUTPUT_DIR -type d -exec chmod 755 {} \;
 find $OUTPUT_DIR -type f -exec chmod 644 {} \;
