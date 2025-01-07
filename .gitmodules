@@ -1,3 +1,6 @@
 [submodule "graymill"]
 	path = graymill
 	url = https://github.com/errnair/graymill.git
+[submodule "ai.robots.txt"]
+	path = ai.robots.txt
+	url = https://github.com/ai-robots-txt/ai.robots.txt.git
