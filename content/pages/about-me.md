@@ -6,7 +6,6 @@ status: published
 title: About Me
 ...
 
-
 <head>
   <link rel="stylesheet" href="{static}/styles/additional.css"/>
 </head>
@@ -15,7 +14,7 @@ title: About Me
   <img class="portrait" alt="A photo of me next to NASA's Astrobee robot." src="{static}/images/portrait-astrobee.jpg" />
   <span style="">
     <p>
-      Software engineer and independent game developer living in Salt Lake City, Utah, with nearly 9 years of experience on projects that improve our robotic capabilities in space at <b>NASA Ames Research Center</b>. My career is spread across different focuses in space science, computer programming, and game development.
+      Software engineer and independent game developer living in Salt Lake City, Utah, with nearly 10 years of experience on projects that improve our robotic capabilities in space at <b>NASA Ames Research Center</b>. My career is spread across different focuses in space science, computer programming, and game development.
     </p>
   </span>
 </div>
@@ -36,7 +35,7 @@ Games are an entire universe of artistic expression that traditional board games
 
 I have been intimately involved with the local Salt Lake Valley game development scene. Organized through the SLC Game Devs Discord server, I have delivered 2 presentations on technical game development topics and 1 live demonstration about building a 3D game in Godot.
 
-* Talk on Buidling a Simple 2D Fluid Simulation in Godot
+* Talk on Building a Simple 2D Fluid Simulation in Godot
   * [Presentation Slides](https://docs.google.com/presentation/d/1_LE85uojjjXCUUpGZrHOP-4MTcdNIx1tZ0nOZT4hfy4/edit?usp=sharing)
   * [GitHub Repository](https://github.com/AstroStucky/EasyFluidSim)
 * Demonstration of a 3D Godot Game: Flappy Goat
