@@ -53,7 +53,8 @@ TYPOGRIFY = False
 # Enable Pandoc
 # Arguments passed into pandoc
 PANDOC_ARGS = [
-    "--mathjax"
+    "--mathjax",
+    "--defaults=pandocs-defaults.yaml"
 ]
 
 # Non-Pandoc Extensions that are not enabled by default in pandoc

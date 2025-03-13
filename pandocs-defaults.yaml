@@ -1,0 +1,3 @@
+# documented here https://pandoc.org/MANUAL.html#defaults-files
+
+table-of-contents: false
