@@ -46,7 +46,7 @@ MENUITEMS = [
 # Appearance
 DEFAULT_PAGINATION = False
 DISPLAY_CATEGORIES_ON_MENU = False
-THEME = "./graymill"
+THEME = "./themes/blue-penguin"
 ## TODO: try true sometime
 TYPOGRIFY = False
 
