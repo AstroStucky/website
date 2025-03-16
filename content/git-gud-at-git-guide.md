@@ -156,7 +156,7 @@ git add player.script new_mechanic.script
 Wildcards can be used. The following command would have accomplished the same thing
 
 ```
-git add player.*
+git add *.script
 ```
 
 I would strongly advise against using `git add .` while in the root directory of the repository. This would simply add everything that has changed. As was pointed out in the previous section, you should be intentional about what gets staged, and using blindly adding all changes is an easy way to get into the habit of cluttering the repository with changes that were not necessary.

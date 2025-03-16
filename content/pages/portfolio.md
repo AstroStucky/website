@@ -10,8 +10,6 @@ title: Portfolio
   <link rel="stylesheet" href="{static}/styles/additional.css"/>
 </head>
 
-# Portfolio
-
   [Games Worked On](#games-worked-on)   
   [Open-Source Samples](#open-source-samples)
 
@@ -25,11 +23,10 @@ title: Portfolio
 
 **Pong?**, **Kuiper**, **Pipeworks**, and **Worm Rampage** were all worked on solely by me. The projects listed on this page showcase my technical ability in game programming and game engines, in particular Godot. You can play most of the following games on my [Itch.io page](https://starrynitegames.itch.io/) and you can view any open-source code I have worked on at my [GitHub page](https://github.com/AstroStucky).
 
-
 ### The Last Slice
 
 <div class="verticalAlign">
-  <iframe src="https://itch.io/embed/2301266?border_color=fff" width="206" height="165" frameborder="0">  [The Last Slice by Starry, Helen Dinh, clickonbritt, MetaArcade, Ed Johnson](https://starrynitegames.itch.io/the-last-slice)
+  <iframe src="https://itch.io/embed/2301266?border_color=ffffff&amp;link_color=15A9DB" width="206" height="165" frameborder="0">  [The Last Slice by Starry, Helen Dinh, clickonbritt, MetaArcade, Ed Johnson](https://starrynitegames.itch.io/the-last-slice)
   </iframe>
   <p>
     The Last Slice is a laid-back puzzle platformer built in only 2 weeks for the [2023 Cozy Autumn Jam](https://itch.io/jam/cozy-autumn-game-jam-2023). You play as a *pumpkignome* who has been charged with the task of uncovering who ate the last slice of pumpkin pie on the day of the autumn celebration. Along the way you acquire the ability to change into different forms in order to traverse through the world.
@@ -46,14 +43,13 @@ title: Portfolio
 ### Pong?
 
 <div class="verticalAlign">
-  <iframe src="https://itch.io/embed/2830850?border_width=0" width="206" height="165" frameborder=0>
+  <iframe src="https://itch.io/embed/2830850?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder=0>
     [Pong? by Starry](https://starrynitegames.itch.io/pongq)
   </iframe>
   <p>
     [Pong?](https://starrynitegames.itch.io/pongq) operates like a rogue-like version of Pong. Each time there is a score, the rules of the game are morphed in some way to always keep the players on their toes. Some morphs can even occur in combination with other morphs. The game also features multiplayer, so grab a friend and give it a try!
   </p>
 </div>
-
 
 <div class="verticalAlign">
   <p>
@@ -68,11 +64,20 @@ title: Portfolio
 ![Pong? is Pong with a twist. Every time the player scores, a new big or small morph is applied to the game.]({static}/images/pongq-breakout.gif){width=400}
 </div>
 
+### Orbit Toy
+
+<div class="verticalAlign">
+  <iframe src="https://itch.io/embed/3393031?border_color=ffffff&amp;link_color=15A9DB" width="206" height="165" frameborder="0">  [Orbit Toy by Starry](https://starrynitegames.itch.io/orbit-toy)
+  </iframe>
+  <p>
+    Orbit Toy is a segment from a game I recently worked on that got cut. I put a lot of work into it, and thought it was really cool. It's not really a complete game, just something to play around in. 
+  </p>
+</div>
 
 ### Pipeworks
 
 <div class="verticalAlign">
-  <iframe src="https://itch.io/embed/1224282?border_width=0" width="206" height="165" frameborder="0">
+  <iframe src="https://itch.io/embed/1224282?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
     [Pipeworks by Starry](https://starrynitegames.itch.io/pipeworks)
   </iframe>
   <p>
@@ -92,7 +97,7 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
 ### Worm Rampage
 
 <div class="verticalAlign">
-  <iframe src="https://itch.io/embed/1017063?border_width=0" width="206" height="165" frameborder="0">
+  <iframe src="https://itch.io/embed/1017063?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
     [Worm Rampage by Starry](https://starrynitegames.itch.io/worm-rampage)
   </iframe>
   <p>
@@ -109,7 +114,7 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
 
 
 <div class="verticalAlign">
-  <iframe src="https://itch.io/embed/371833?border_width=0" width="206" height="165" frameborder="0">
+  <iframe src="https://itch.io/embed/371833?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
     [Kuiper by Starry](https://starrynitegames.itch.io/kuiper)
   </iframe>
   <p>
@@ -127,7 +132,7 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
 ### Field Notes
 
 <div class="verticalAlign">
-  <iframe src="https://itch.io/embed/502778?border_width=0" width="206" height="165" frameborder="0">
+  <iframe src="https://itch.io/embed/502778?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
     [Field Notes by unrulycuriosity, Starry](https://unrulycuriosity.itch.io/fieldnotes)
   </iframe>
   <p>
@@ -148,9 +153,11 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
 <div class="verticalAlign">
   <img class="thumbnail" alt="" src="{static}/images/oceanwaters.jpg" width="200"/>
   <p>
-    [*Ocean Worlds Autonomy Testbed for Exploration Research & Simulation* (*OceanWATERS*)](https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/towards-autonomous-surface-missions-on-ocean-worlds/) is an open-source 3D virtual robotics testbed for developing lander autonomy in a simulated Europa environment. [It is available on GitHub](https://github.com/nasa/ow_simulator). OceanWATERS helps enabled future exploration of outer solar system icy worlds. It is built on [ROS](https://www.ros.org/) and the simulation environment is based on [Gazebo](http://gazebosim.org/). My role on the project was to develop new features to increase fidelity of the physical simulation.
+    [*Ocean Worlds Autonomy Testbed for Exploration Research & Simulation* (*OceanWATERS*)](https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/towards-autonomous-surface-missions-on-ocean-worlds/) is an open-source 3D virtual robotics testbed for developing lander autonomy in a simulated Europa environment. [It is available on GitHub](https://github.com/nasa/ow_simulator).
   </p>
 </div>
+
+OceanWATERS helps enabled future exploration of outer solar system icy worlds. It is built on [ROS](https://www.ros.org/) and the simulation environment is based on [Gazebo](http://gazebosim.org/). My role on the project was to develop new features to increase fidelity of the physical simulation.
 
 ### Easy Fluid Sim
 
@@ -164,7 +171,7 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
 ### Flappy Goat
 
 <div class="verticalAlign">
-  <iframe src="https://itch.io/embed/2616570?border_width=0" width="206" height="165" frameborder="0">
+  <iframe src="https://itch.io/embed/2616570?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
     [Flappy Goat by Starry, Tuckleberry Winn](https://starrynitegames.itch.io/flappy-goat)
   </iframe>
   <p>

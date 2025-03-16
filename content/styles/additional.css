@@ -4,6 +4,12 @@
   padding: 10px 10px 10px 10px;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
 .verticalAlign {
   display: flex;
   align-items: center;
