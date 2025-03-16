@@ -1,6 +1,9 @@
 [submodule "graymill"]
-	path = graymill
+	path = themes/graymill
 	url = https://github.com/errnair/graymill.git
 [submodule "ai.robots.txt"]
 	path = ai.robots.txt
 	url = https://github.com/ai-robots-txt/ai.robots.txt.git
+[submodule "blue-penguin"]
+	path = themes/blue-penguin
+	url = https://github.com/jody-frankowski/blue-penguin.git
