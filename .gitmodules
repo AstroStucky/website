@@ -4,6 +4,6 @@
 [submodule "ai.robots.txt"]
 	path = ai.robots.txt
 	url = https://github.com/ai-robots-txt/ai.robots.txt.git
-[submodule "blue-penguin"]
+[submodule "themes/blue-penguin"]
 	path = themes/blue-penguin
 	url = https://github.com/jody-frankowski/blue-penguin.git
