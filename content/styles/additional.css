@@ -1,3 +1,4 @@
+
 .webPreview {
   border-radius: 5%;
   width: 650px;
@@ -15,11 +16,17 @@
   align-items: center;
 }
 
+.thumbnailGrid {
+  float: center;
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20%
+}
+
 .thumbnail {
   float: left;
-  width: 250px;
+  width: 200px;
   padding: 20px 20px 20px 20px;
-/*  border-radius: 50%*/
 }
 
 .portrait {

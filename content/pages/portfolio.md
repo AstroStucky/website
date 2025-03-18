@@ -13,15 +13,18 @@ title: Portfolio
   [Games Worked On](#games-worked-on)   
   [Open-Source Samples](#open-source-samples)
 
+<p>
+**Pong?**, **Kuiper**, **Pipeworks**, and **Worm Rampage** were all worked on solely by me. The projects listed on this page showcase my technical ability in game programming and game engines, in particular Godot. You can play most of the following games on my [Itch.io page](https://starrynitegames.itch.io/) and you can view any open-source code I have worked on at my [GitHub page](https://github.com/AstroStucky).
+</p>
+
 ---
 
 ## Games Worked On
 
-<!-- <div style="text-align: center;">
-![]({static}/images/portfolio-collage.gif){width=600}
-</div> -->
-
-**Pong?**, **Kuiper**, **Pipeworks**, and **Worm Rampage** were all worked on solely by me. The projects listed on this page showcase my technical ability in game programming and game engines, in particular Godot. You can play most of the following games on my [Itch.io page](https://starrynitegames.itch.io/) and you can view any open-source code I have worked on at my [GitHub page](https://github.com/AstroStucky).
+|     |     |     |
+| --- | --- | --- |
+| [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_thelastslice.png"/>](#the-last-slice) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pong.png"/>](#pong)                | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_orbittoy.png"/>](#orbit-toy) |
+| [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pipeworks.png"/>](#pipeworks)         | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_wormrampage.png"/>](#worm-rampage) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_kuiper.png"/>](#kuiper)      |
 
 ### The Last Slice
 
@@ -128,7 +131,7 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
   ![Demonstration of dynamic rigid body break-up built from scratch for Kuiper.]({static}/images/game-preview_kuiper.gif){width=400}
 </div>
 
-
+<!--
 ### Field Notes
 
 <div class="verticalAlign">
@@ -143,7 +146,7 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
 <div style="text-align: center;">
 ![In Field Notes you explore planets and complete real-world science classification tasks.]({static}/images/game-preview_field-notes.gif){width=400}
 </div>
-
+ -->
 ---
 
 ## Open-Source Samples
@@ -151,7 +154,7 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
 ### OceanWATERS
 
 <div class="verticalAlign">
-  <img class="thumbnail" alt="" src="{static}/images/oceanwaters.jpg" width="200"/>
+  <img class="thumbnail" alt="" src="{static}/images/oceanwaters.jpg"/>
   <p>
     [*Ocean Worlds Autonomy Testbed for Exploration Research & Simulation* (*OceanWATERS*)](https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/towards-autonomous-surface-missions-on-ocean-worlds/) is an open-source 3D virtual robotics testbed for developing lander autonomy in a simulated Europa environment. [It is available on GitHub](https://github.com/nasa/ow_simulator).
   </p>
