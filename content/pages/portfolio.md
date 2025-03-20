@@ -32,16 +32,22 @@ title: Portfolio
   <iframe src="https://itch.io/embed/2301266?border_color=ffffff&amp;link_color=15A9DB" width="206" height="165" frameborder="0">  [The Last Slice by Starry, Helen Dinh, clickonbritt, MetaArcade, Ed Johnson](https://starrynitegames.itch.io/the-last-slice)
   </iframe>
   <p>
-    The Last Slice is a laid-back puzzle platformer built in only 2 weeks for the [2023 Cozy Autumn Jam](https://itch.io/jam/cozy-autumn-game-jam-2023). You play as a *pumpkignome* who has been charged with the task of uncovering who ate the last slice of pumpkin pie on the day of the autumn celebration. Along the way you acquire the ability to change into different forms in order to traverse through the world.
+    As the director and lead programmer of *The Last Slice* I led a team of 5 others during a 2 week game jam for the [2023 Cozy Autumn Jam](https://itch.io/jam/cozy-autumn-game-jam-2023) to design and implement this cozy puzzle platformer that oozes with Autumn time vibes. I handled the tilemap implementation, character control, procedural animation, and the gameplay programming for each costume's unique abilities.
   </p>
 </div>
 
-[The game was well received by Cozy Autumn Jam reviewers!](https://itch.io/jam/cozy-autumn-game-jam-2023/rate/2301266) Of the 126 submissions our game ranked **3rd for fun**, **5th for creativity**, and **6th place overall**.
+<div class="verticalAlign">
+  <p>
+    [The game was very well received by Cozy Autumn Jam reviewers!](https://itch.io/jam/cozy-autumn-game-jam-2023/rate/2301266) It ranked **3rd for fun**, **5th for creativity**, and **6th place overall**.
+  </p>
+  <span>
+    ![]({static}/images/placeholder.png){width=400}
+  </span>
+</div>
 
 <div style="text-align: center;">
 ![The player solves a platform puzzle using both the jack-o-lantern and ghost costume.]({static}/images/game-preview_the-last-slice.gif){width=400}
 </div>
-
 
 ### Pong?
 
@@ -50,13 +56,13 @@ title: Portfolio
     [Pong? by Starry](https://starrynitegames.itch.io/pongq)
   </iframe>
   <p>
-    [Pong?](https://starrynitegames.itch.io/pongq) operates like a rogue-like version of Pong. Each time there is a score, the rules of the game are morphed in some way to always keep the players on their toes. Some morphs can even occur in combination with other morphs. The game also features multiplayer, so grab a friend and give it a try!
+    For *Pong?* I developed an enemy AI based on simulated human-reaction time, cut my teeth on Godot's animation player, and implemented a weighted probability distribution for randomly selecting the next gameplay morph that also adjusts itself after each level to keep the player from seeing the same content too frequently.
   </p>
 </div>
 
 <div class="verticalAlign">
   <p>
-    Pong? was made for the [Fox Hollow Jam 2](https://itch.io/jam/fox-hollow-jam-2) and won the second place prize. Everything in the game was made in only 8 days by myself.
+    The game was made for the 8 day [Fox Hollow Jam 2](https://itch.io/jam/fox-hollow-jam-2) in which it took 2nd place.
   </p>
   <span>
     ![]({static}/images/FoxHollowJam2_2024_2ndplace_gold.png){width=400}
@@ -64,7 +70,7 @@ title: Portfolio
 </div>
 
 <div style="text-align: center;">
-![Pong? is Pong with a twist. Every time the player scores, a new big or small morph is applied to the game.]({static}/images/pongq-breakout.gif){width=400}
+![*Pong?* is Pong with a twist. Every time the player scores, a new big or small morph is applied to the game.]({static}/images/pongq-breakout.gif){width=400}
 </div>
 
 ### Orbit Toy
@@ -73,9 +79,11 @@ title: Portfolio
   <iframe src="https://itch.io/embed/3393031?border_color=ffffff&amp;link_color=15A9DB" width="206" height="165" frameborder="0">  [Orbit Toy by Starry](https://starrynitegames.itch.io/orbit-toy)
   </iframe>
   <p>
-    Orbit Toy is a segment from a game I recently worked on that got cut. I put a lot of work into it, and thought it was really cool. It's not really a complete game, just something to play around in. 
+    *Orbit Toy* is a demonstration instead of a full game. The environment is a 3D terrain shader wrapped around a half-sphere. It is capable of blending as many different noise and/or heightmap images together using addition, subtraction, multiplication, or division operations as needed to produce the desired terrain shape.
   </p>
 </div>
+
+The terrain albedo is rendered with a combination of height and normal texture blending to represent terrain walls, highlands, and lowlands. The minimap predicts the spacecraft's trajectory and reacts in real-time to adjustments by employing leap-frog integration, so that the prediction remains in tight agreement with Godot's physics engine result.
 
 ### Pipeworks
 
@@ -84,13 +92,9 @@ title: Portfolio
     [Pipeworks by Starry](https://starrynitegames.itch.io/pipeworks)
   </iframe>
   <p>
-    [Pipeworks](https://starrynitegames.itch.io/pipeworks) was prototyped during the [49th Ludum Dare 72-hour Game Jam](https://ldjam.com/events/ludum-dare/49/) for the theme "Unstable". You are a coolant delivery bot tasked with toting your sloshy cargo from one point to another inside a vast underground reactor complex.
+    For *Pipeworks* I built a simple but performant fluid effect with Godot's physics engine, about 50 circular rigid bodies, and the [metaball rending technique](https://en.wikipedia.org/wiki/Metaballs). The slosh forces are estimated simply by counting the number of particles within  the two bottom quadrants of the character's circular body, which manages to feel just like you are controlling a sloshy cylinder of fluid without the need for expensive computations.
   </p>
 </div>
-
-The fluid simulation is done with 50 rigid bodies interacting in Godot's physics engine. The rigid bodies are rendered as metaballs to give the appearance of a fluid. From this design I created an [educational demonstration that is open-sourced on GitHub called Easy Fluid Sim](#easy-fluid-sim).
-
-<!-- Using the collisions of the metaballs against the interior body of the bot resulted in movement that was far too unstable, so instead a cheap and simple technique is used to calculate the slosh force whereby every fluid body below the midway point imposes a torque on the bot equal to its weight multiplied by its horizontal distance from the bot's center. -->
 
 <div style="text-align: center;">
 ![Each level in Pipeworks begins with the player taking on coolant at a fill station. The player must then navigate to the nearest dump station, fighting the chaotic motion of their sloshy cargo along the way.]({static}/images/game-preview_pipeworks.gif){width=400}
@@ -104,14 +108,13 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
     [Worm Rampage by Starry](https://starrynitegames.itch.io/worm-rampage)
   </iframe>
   <p>
-    [Worm Rampage](https://starrynitegames.itch.io/worm-rampage) was prototyped during the [48th Ludum Dare 72-hour Game Jam](https://ldjam.com/events/ludum-dare/48/) for the theme "Deeper and Deeper". The concept is that you are a massive tunnel burrowing worm wreaking havoc on surface dwellers.
+    For *Worm Rampage* I cut my teeth on procedural animation in Godot, line-of-sight based AI, navigation meshes, and Perlin noise terrain in 2D. I used the game as a case study for my talk about finite state machines in game development delivered to the SLC Game Dev community.
   </p>
 </div>
 
 <div style="text-align: center;">
-  ![In Worm Rampage the player burrows through terrain in order to build up enough speed to breach and attack the surface.]({static}/images/game-preview_worm-rampage.gif){width=400}
+  ![The player burrows through terrain in order to build up enough speed to breach and attack the surface.]({static}/images/game-preview_worm-rampage.gif){width=400}
 </div>
-
 
 ### Kuiper
 
@@ -121,11 +124,9 @@ The fluid simulation is done with 50 rigid bodies interacting in Godot's physics
     [Kuiper by Starry](https://starrynitegames.itch.io/kuiper)
   </iframe>
   <p>
-    Resources are scarce out on the fringe. People have to make their spacecraft with whatever they can find, and in Kuiper, ice is by and large the most abundant and versatile resource there is. The player is given the power to bend ice to their will. They will use this power to dynamically construct a protective hull around themselves, and use fragments of that hull to attack enemies and propel themselves throughout the Kuiper Belt.
+    *Kuiper* was an experiment in destructible rigid bodies in 2D. Using the C++ GDNative library, I built a system for slicing up and blowing apart 2D meshes in real-time.
   </p>
 </div>
-
-[Kuiper](https://starrynitegames.itch.io/kuiper) is an idea inspired by time spent at NASA Ames Research Center researching ice in its surprisingly numerous forms, and in particular how it behaves at extreme low temperature and pressure.
 
 <div style="text-align: center;">
   ![Demonstration of dynamic rigid body break-up built from scratch for Kuiper.]({static}/images/game-preview_kuiper.gif){width=400}
