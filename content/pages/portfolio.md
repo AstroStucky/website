@@ -36,7 +36,9 @@ title: Portfolio
   </p>
 </div>
 
-<div class="verticalAlign">
+[The game was very well received by Cozy Autumn Jam reviewers!](https://itch.io/jam/cozy-autumn-game-jam-2023/rate/2301266) It ranked **3rd for fun**, **5th for creativity**, and **6th place overall**.
+
+<!-- TODO <div class="verticalAlign">
   <p>
     [The game was very well received by Cozy Autumn Jam reviewers!](https://itch.io/jam/cozy-autumn-game-jam-2023/rate/2301266) It ranked **3rd for fun**, **5th for creativity**, and **6th place overall**.
   </p>
@@ -44,7 +46,7 @@ title: Portfolio
     ![]({static}/images/placeholder.png){width=400}
   </span>
 </div>
-
+ -->
 <div style="text-align: center;">
 ![The player solves a platform puzzle using both the jack-o-lantern and ghost costume.]({static}/images/game-preview_the-last-slice.gif){width=400}
 </div>
