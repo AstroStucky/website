@@ -19,14 +19,14 @@ title: Portfolio
 
 ---
 
-## Games Worked On
+# Games Worked On
 
 |     |     |     |
 | --- | --- | --- |
 | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_thelastslice.png"/>](#the-last-slice) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pong.png"/>](#pong)                | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_orbittoy.png"/>](#orbit-toy) |
 | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pipeworks.png"/>](#pipeworks)         | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_wormrampage.png"/>](#worm-rampage) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_kuiper.png"/>](#kuiper)      |
 
-### The Last Slice
+## The Last Slice
 
 <div class="verticalAlign">
   <iframe src="https://itch.io/embed/2301266?border_color=ffffff&amp;link_color=15A9DB" width="206" height="165" frameborder="0">  [The Last Slice by Starry, Helen Dinh, clickonbritt, MetaArcade, Ed Johnson](https://starrynitegames.itch.io/the-last-slice)
@@ -51,7 +51,7 @@ title: Portfolio
 ![The player solves a platform puzzle using both the jack-o-lantern and ghost costume.]({static}/images/game-preview_the-last-slice.gif){width=400}
 </div>
 
-### Pong?
+## Pong?
 
 <div class="verticalAlign">
   <iframe src="https://itch.io/embed/2830850?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder=0>
@@ -75,7 +75,7 @@ title: Portfolio
 ![*Pong?* is Pong with a twist. Every time the player scores, a new big or small morph is applied to the game.]({static}/images/pongq-breakout.gif){width=400}
 </div>
 
-### Orbit Toy
+## Orbit Toy
 
 <div class="verticalAlign">
   <iframe src="https://itch.io/embed/3393031?border_color=ffffff&amp;link_color=15A9DB" width="206" height="165" frameborder="0">  [Orbit Toy by Starry](https://starrynitegames.itch.io/orbit-toy)
@@ -87,7 +87,7 @@ title: Portfolio
 
 The terrain albedo is rendered with a combination of height and normal texture blending to represent terrain walls, highlands, and lowlands. The minimap predicts the spacecraft's trajectory and reacts in real-time to adjustments by employing leap-frog integration, so that the prediction remains in tight agreement with Godot's physics engine result.
 
-### Pipeworks
+## Pipeworks
 
 <div class="verticalAlign">
   <iframe src="https://itch.io/embed/1224282?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
@@ -103,7 +103,7 @@ The terrain albedo is rendered with a combination of height and normal texture b
 </div>
 
 
-### Worm Rampage
+## Worm Rampage
 
 <div class="verticalAlign">
   <iframe src="https://itch.io/embed/1017063?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
@@ -118,7 +118,7 @@ The terrain albedo is rendered with a combination of height and normal texture b
   ![The player burrows through terrain in order to build up enough speed to breach and attack the surface.]({static}/images/game-preview_worm-rampage.gif){width=400}
 </div>
 
-### Kuiper
+## Kuiper
 
 
 <div class="verticalAlign">
@@ -152,9 +152,9 @@ The terrain albedo is rendered with a combination of height and normal texture b
  -->
 ---
 
-## Open-Source Samples
+# Open-Source Samples
 
-### OceanWATERS
+## OceanWATERS
 
 <div class="verticalAlign">
   <img class="thumbnail" alt="" src="{static}/images/oceanwaters.jpg"/>
@@ -165,7 +165,7 @@ The terrain albedo is rendered with a combination of height and normal texture b
 
 OceanWATERS helps enabled future exploration of outer solar system icy worlds. It is built on [ROS](https://www.ros.org/) and the simulation environment is based on [Gazebo](http://gazebosim.org/). My role on the project was to develop new features to increase fidelity of the physical simulation.
 
-### Easy Fluid Sim
+## Easy Fluid Sim
 
 <div class="verticalAlign">
   <img class="thumbnail" alt="" src="{static}/images/portfolio-easyfluidsim.gif"/>
@@ -174,7 +174,7 @@ OceanWATERS helps enabled future exploration of outer solar system icy worlds. I
   </p>
 </div>
 
-### Flappy Goat
+## Flappy Goat
 
 <div class="verticalAlign">
   <iframe src="https://itch.io/embed/2616570?border_width=0&amp;link_color=15A9DB" width="206" height="165" frameborder="0">
