@@ -24,7 +24,7 @@ The majority of my game developments have been in **Godot**, but I have also dab
 My game development work has always been focused on **gameplay programming**. As both a gamer and solo game developer, I have studied and practiced **game design** all my life.  
 I have done extensive development for 3D projects implementing features that required a strong grasp of **3D math**, **shader programming**, and the **graphics pipeline**.  
 I have developed simulations of physical interactions both from scratch and using physics libraries. I understand how to optimize these problems and parallelize them when needed.  
-Through my years as a contractor with NASA Ames Research Center, I have worked alongside and developed solutions for autonomy engineers. I have an understanding different problems facing **autonomy** solutions and **fault-diagnoatic and recovery** systems.
+Through my years as a contractor with NASA Ames Research Center, I have worked alongside and developed solutions for autonomy engineers. I have an understanding different problems facing **autonomy** solutions and **fault-diagnostic, isolation, and recovery** systems.
 
 # Work Experience
 
