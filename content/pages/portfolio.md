@@ -184,3 +184,22 @@ OceanWATERS helps enabled future exploration of outer solar system icy worlds. I
     A Flappy Bird clone made to demonstrate building a 3D game in Godot using Blender file imports. [The code is available on GitHub](https://github.com/AstroStucky/FlappyGoat). It was presented to a meet-up of the SLC Game Devs at Millcreek Community Library in Millcreek, Utah, USA. [The game can be played on Itch.io](https://starrynitegames.itch.io/flappy-goat).
   </p>
 </div>
+
+## FPS Player Controller (Godot Addon)
+
+
+Worked on a Godot Mono (v4.4) [addon to enable drag-and-drop first-person player control](https://godotengine.org/asset-library/asset/4020) published by Polar Bear Studios. I was brought onto the project to clean up the C# code, fix bugs, add quality of life features, and write the addon's user documentation. The source code can be viewed [here on its GitHub](https://github.com/PolarBears-studio/player-controller) and the [user documentation here](https://polarbears-studio.github.io/player-controller/). 
+
+### Testimonial from Polar Bear Studios LLC
+
+>Thomas stands out as one of the most impressive professionals I've had the privilege to work with. Our collaboration on a character controller project for the Godot community was exceptionally productive and rewarding.  
+>  
+>What sets Thomas apart  
+>Technical Excellence - Thomas consistently delivered thoughtful, well-crafted solutions to complex challenges. His approach to problem-solving is both methodical and innovative.  
+>Collaborative Spirit - Throughout our partnership, Thomas proved to be an invaluable team member who actively contributed ideas and worked diligently to resolve issues as they arose.  
+>Professional Character - Thomas brings a rare combination of technical skill and genuine professionalism to every interaction. His attention to detail and considerate approach made our collaboration smooth and effective.  
+>  
+>Summary  
+>Working with Thomas was a genuinely positive experience that exceeded expectations. His technical capabilities, collaborative nature, and professional demeanor make him an ideal partner for challenging projects.  
+>I recommend Thomas without hesitation for anyone seeking a skilled, reliable, and personable professional.  
+>~ Aliaksandr Husakou, CEO / CTO of Polar Bears Studio
