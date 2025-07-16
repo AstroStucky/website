@@ -15,18 +15,19 @@ title: Resume
 | C++         | 10 years         |
 | GDScript    | 6 years          |   
 | Python      | 6 years          |
-| C#          | 8 months         |
+| C#          | 1 year           |
 
 ## Software
-The majority of my game developments have been in **Godot**, but I have also dabbled in **Unity** for game jams, and one 6 months long project. I daily drive **Linux** and have built up strong familiarity with developing on it. **Git** and **GNU Debugger** are essential tools I use frequently. I have familiarity with the robotics middle-ware **ROS** and the dynamics and rendering engine **Gazebo**. As a solo developer of my own game projects, I am competent in **Aseprite** for sprite work and **Blender** for 3D modeling. 
+The majority of my game development has been in **Godot**, but I have also used **Unity** for game jams, and one 6 months long project. I daily drive **Linux** and have built up a strong familiarity with developing in it. **Git** and **GNU Debugger** are essential tools I use frequently. I have familiarity with the robotics middle-ware **ROS** and the dynamics and rendering engine **Gazebo**. As a solo developer of my own game projects, I am competent in **Aseprite** for sprite work and **Blender** for 3D modeling. 
 
 ## Science and Engineering
 My game development work has always been focused on **gameplay programming**. As both a gamer and solo game developer, I have studied and practiced **game design** all my life.  
-I have done extensive development for 3D projects implementing features that required a strong grasp of **3D math**, **shader programming**, and the **graphics pipeline**.  
+I have done extensive development for 3D projects implementing features that required a strong grasp of **3D math**, **shader programming**, and the **graphics pipeline** in general.  
 I have developed simulations of physical interactions both from scratch and using physics libraries. I understand how to optimize these problems and parallelize them when needed.  
-Through my years as a contractor with NASA Ames Research Center, I have worked alongside and developed solutions for autonomy engineers. I have an understanding different problems facing **autonomy** solutions and **fault-diagnostic, isolation, and recovery** systems.
+Through my years as a contractor with *NASA Ames Research Center*, I have worked alongside and developed solutions for autonomy engineers. I have an understanding different problems facing **autonomy** solutions and **fault-diagnostic, isolation, and recovery** systems.
 
 # Work Experience
+
 
 ## Freelance Godot Game Developer (self-employed)
 >May 2019 - Present  
@@ -36,6 +37,9 @@ Implemented physics-based gameplay, platformer mechanics, UI, dynamic rigid-body
 
 ### 3D Optimization
 Implemented VRAM compression and designed an automated solution for both optimizing and decimating user-generated 3D models.  
+
+### Technical Art
+I have implemented highly detailed meteorological events and other planet-wide phenomenon using GDShader, a shading language used in Godot that is similar to GLSL ES 3.0.  
 
 ### Project Management
 Managed a team of 5 to create The Last Slice for a two week game jam in which we won 3rd.  
@@ -58,9 +62,9 @@ Designed and developed a Gazebo plugin that superimposes a 3D material distribut
 ### ROS Action Infrastructure
 Refactored over 3k lines of scripts into a more modular and robust python package.
 
+
 ## Systems Developer (SETI Institute)
 >May 2017 - July 2020  
-
 
 ### Physics Engines
 Modeled off-world lander terrain interactions (e.g. scooping, digging, poking) using discrete element method to simulate granular material.
@@ -116,7 +120,7 @@ At San Francisco, CA's Science Hack Day weekend long hackathon my game prototype
 ## University of Utah
 >graduated 2015  
 
-Earned a Physics B.S. and Applied Mathematics B.S. I minored in Astronomy.
+Earned a Physics B.S., Applied Mathematics B.S., and minored in Astronomy.
 
 # Publications
 
