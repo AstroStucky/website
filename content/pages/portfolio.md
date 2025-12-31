@@ -10,21 +10,51 @@ title: Portfolio
   <link rel="stylesheet" href="{static}/styles/additional.css"/>
 </head>
 
-  [Games Worked On](#games-worked-on)   
-  [Open-Source Samples](#open-source-samples)
+---
 
-<p>
-**Pong?**, **Orbit Toy**, **Pipeworks**, **Worm Rampage**, and **Kuiper** were all worked on solely by me. The projects listed on this page showcase my technical ability in game programming and game engines, in particular Godot. You can play most of the following games on my [Itch.io page](https://starrynitegames.itch.io/) and you can view any open-source code I have worked on at my [GitHub page](https://github.com/AstroStucky).
-</p>
+<div style="font-size:larger; text-align:center;">
+  [Games Worked On](#games-worked-on)   
+</div>
+
+<div style="font-size:larger; text-align:center;">
+  [Open-Source Projects](#open-source-samples)
+</div>
 
 ---
 
+
 # Games Worked On
+
+<p>
+**Pong?**, **Orbit Toy**, **Pipeworks**, **Worm Rampage**, and **Kuiper** were all worked on solely by me. You can play most of the following games on my [Itch.io page](https://starrynitegames.itch.io/).
+</p>
+
 
 |     |     |     |
 | --- | --- | --- |
+|     | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_unfathomable.png"/>](#unfathomable-titans) |   |
 | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_thelastslice.png"/>](#the-last-slice) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pong.png"/>](#pong)                | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_orbittoy.png"/>](#orbit-toy) |
 | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pipeworks.png"/>](#pipeworks)         | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_wormrampage.png"/>](#worm-rampage) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_kuiper.png"/>](#kuiper)      |
+
+## Unfathomable Titans
+
+<div class="verticalAlign">
+  <img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_unfathomable.png"/>
+  <p>
+    Performed technical art work for Not Half Bad Games, and delivered several in-game effects that are prominently featured in their game Unfathomable Titans and [its trailer](https://youtu.be/rckIHbpf3Rg). The game is still under-development. [Wishlist it now on Steam!](https://store.steampowered.com/app/4070570/Unfathomable_Titans/)
+  </p>
+</div>
+
+With permission from Not Half Bad Games, here is a sample of the effects I produced for Unfathomable Titans.
+
+<div style="text-align: center;">
+![A hurricane cyclone that menaces your boats in-game.]({static}/images/portfolio/techart_hurricane_shader.gif)
+</div>
+
+<div style="text-align: center;">
+![Both the ungulating ocean and shoreline waves were done by yours truly.]({static}/images/portfolio/techart_ocean_and_wake_tight.gif)
+</div>
+
 
 ## The Last Slice
 

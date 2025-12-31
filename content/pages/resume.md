@@ -6,25 +6,49 @@ status: published
 title: Resume
 ...
 
+---
+
+<div style="font-size:larger; text-align:center;">
+  [Skills](#skills)   
+</div>
+
+<div style="font-size:larger; text-align:center;">
+  [Work Experience](#work-experience)
+</div>
+
+<div style="font-size:larger; text-align:center;">
+  [Volunteering & Leadership](#volunteering-leadership)
+</div>
+
+<div style="font-size:larger; text-align:center;">
+  [Awards](#awards)
+</div>
+
+<div style="font-size:larger; text-align:center;">
+  [Publications](#publications)
+</div>
+
+---
+
 
 # Skills
 
 ## Computer Languages
 | **Language**    | **Experience Level** |
-| :---:       | :---:            | 
-| C++         | 10 years         |
-| GDScript    | 6 years          |   
-| Python      | 6 years          |
-| C#          | 1 year           |
+| :---:           | :---:                | 
+| C++             | 10 years             |
+| GDScript        | 6 years              |   
+| Python          | 6 years              |
+| C#              | 1 year               |
 
 ## Software
-The majority of my game development has been in **Godot**, but I have also used **Unity** for game jams, and one 6 months long project. I daily drive **Linux** and have built up a strong familiarity with developing in it. **Git** and **GNU Debugger** are essential tools I use frequently. I have familiarity with the robotics middle-ware **ROS** and the dynamics and rendering engine **Gazebo**. As a solo developer of my own game projects, I am competent in **Aseprite** for sprite work and **Blender** for 3D modeling. 
+The majority of my game development has been in **Godot**, but I have also used **Unity** for game jams, and one 6 month long project. I daily drive **Linux** and have built up a strong familiarity with developing in it. **Git** and **GNU Debugger** are essential tools I use frequently. I have familiarity with the robotics middle-ware **ROS** and the dynamics and rendering engine **Gazebo**. As a solo developer of my own game projects, I am competent in **Aseprite** for sprite work and **Blender** for 3D modeling. 
 
 ## Science and Engineering
-My game development work has always been focused on **gameplay programming**. As both a gamer and solo game developer, I have studied and practiced **game design** all my life.  
+I specialize in **gameplay programming** and **technical art**. As both a gamer and solo game developer, I have studied and practiced **game design** all my life.  
 I have done extensive development for 3D projects implementing features that required a strong grasp of **3D math**, **shader programming**, and the **graphics pipeline** in general.  
-I have developed simulations of physical interactions both from scratch and using physics libraries. I understand how to optimize these problems and parallelize them when needed.  
-Through my years as a contractor with *NASA Ames Research Center*, I have worked alongside and developed solutions for autonomy engineers. I have an understanding different problems facing **autonomy** solutions and **fault-diagnostic, isolation, and recovery** systems.
+I have developed simulations of physical interactions both from scratch and using different physics engine API.  
+Through my years as a contractor with *NASA Ames Research Center*, I have worked alongside and developed solutions for autonomy engineers. I have an understanding of problems facing **autonomy** solutions and **fault-diagnostic, isolation, and recovery** systems in general.
 
 # Work Experience
 
@@ -39,10 +63,10 @@ Implemented physics-based gameplay, platformer mechanics, UI, dynamic rigid-body
 Implemented VRAM compression and designed an automated solution for both optimizing and decimating user-generated 3D models.  
 
 ### Technical Art
-I have implemented highly detailed meteorological events and other planet-wide phenomenon using GDShader, a shading language used in Godot that is similar to GLSL ES 3.0.  
+I have implemented highly detailed meteorological events and other planet-wide phenomenon using GDShader, a shading language used in Godot that is similar to GLSL ES 3.0 ([see portfolio](portfolio.html)).  
 
 ### Project Management
-Managed a team of 5 to create The Last Slice for a two week game jam in which we won 3rd.  
+Managed a team of 5 to create [The Last Slice](portfolio.html#the-last-slice) for a two week game jam in which we won 3rd.  
 
 ### Remote Collaboration
 Entirely remote work requiring self-driven productivity to meet project goals.  
