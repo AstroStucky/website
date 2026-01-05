@@ -59,11 +59,14 @@ Through my years as a contractor with *NASA Ames Research Center*, I have worked
 ### Gameplay Programming
 Implemented physics-based gameplay, platformer mechanics, UI, dynamic rigid-body fracturing as a C++ GDExtension, and much more ([see portfolio](portfolio.html)).
 
-### 3D Optimization
-Implemented VRAM compression and designed an automated solution for both optimizing and decimating user-generated 3D models.  
-
 ### Technical Art
 I have implemented highly detailed meteorological events and other planet-wide phenomenon using GDShader, a shading language used in Godot that is similar to GLSL ES 3.0 ([see portfolio](portfolio.html)).  
+
+### Procedural Generation
+Designed and implemented a system to procedurally generate 2D levels for a dungeon crawler, and another system to generate 3D heightmap terrain.
+
+### 3D Optimization
+Implemented VRAM compression and designed an automated solution for both optimizing and decimating user-generated 3D models.  
 
 ### Project Management
 Managed a team of 5 to create [The Last Slice](portfolio.html#the-last-slice) for a two week game jam in which we won 3rd.  
