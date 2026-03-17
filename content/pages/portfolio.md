@@ -17,6 +17,10 @@ title: Portfolio
 </div>
 
 <div style="font-size:larger; text-align:center;">
+  [Technical Art Samples](#technical-art-samples)   
+</div>
+
+<div style="font-size:larger; text-align:center;">
   [Open-Source Projects](#open-source-samples)
 </div>
 
@@ -181,6 +185,27 @@ The terrain albedo is rendered with a combination of height and normal texture b
 </div>
  -->
 ---
+
+# Technical Art Samples
+
+Samples of technical I have done either for game projects or simply for practice. All of the following were done using the GDShader language, which is Godot's native shader language patterned after GLSL ES 3.0.
+
+<div style="text-align: center;">
+![A hurricane cyclone that menaces your boats in the game, Unfathomable Titans. Shared with permission from Not Half Bad Games.]({static}/images/portfolio/techart_hurricane_shader.gif)
+</div>
+
+<div style="text-align: center;">
+![Both the ungulating ocean and shoreline waves in Unfathomable Titans were done by yours truly. Shared with permission from Not Half Bad Games.]({static}/images/portfolio/techart_ocean_and_wake_tight.gif)
+</div>
+
+<div style="text-align: center;">
+![A stylized rendition of the corona of the sun. The sun itself is intentionally occulted, just like if you were viewing it during a total solar eclipse or using an occulting disk on a telescope.]({static}/images/portfolio/techart_eclipse_corona.gif)
+</div>
+
+<div style="text-align: center;">
+![A 3D render of flag waving in wind. This is done with a simple and performant vertex shader and simplex noise computed on the GPU. The flag is the [1973 Flag of Earth designed by John McConnell](https://en.wikipedia.org/wiki/Flag_of_Earth).]({static}/images/portfolio/techart_earth_flag.gif)
+</div>
+
 
 # Open-Source Samples
 
