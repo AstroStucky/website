@@ -34,11 +34,27 @@ title: Portfolio
 </p>
 
 
+|     |     |
+| --- | --- |
+| [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_ufo_game.png"/>](#PyramidProject) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_unfathomable.png"/>](#unfathomable-titans) |
+
 |     |     |     |
 | --- | --- | --- |
-|     | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_unfathomable.png"/>](#unfathomable-titans) |   |
 | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_thelastslice.png"/>](#the-last-slice) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pong.png"/>](#pong)                | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_orbittoy.png"/>](#orbit-toy) |
 | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_pipeworks.png"/>](#pipeworks)         | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_wormrampage.png"/>](#worm-rampage) | [<img class="thumbnailGrid" src="{static}/images/portfolio/thumbnail_kuiper.png"/>](#kuiper)      |
+
+
+## Pyramid Project
+
+<div class="verticalAlign">
+  <iframe src="https://itch.io/embed/4356198?border_color=ffffff&amp;link_color=15A9DB" width="206" height="165"> [The P.Y.R.A.M.I.D. Project by pochoco, KDeveloper, VR00D, kaczorski, Iceofspade, Starry](https://pochoco.itch.io/the-pyramid-project)
+  </iframe>
+  <p>
+    We built Pyramid Project in only 10 days for the GoedWare Game Jam #16. As programmer on the team I wrote a tool for creating a miniature 3D planet with noise terrain that included parameters for island mountain height, texturing, and island-to-ocean ratio. The tool also produced an optimized collision mesh.
+  </p>
+</div>
+
+I built the ocean shader in GDShader, and I did all the programming for the flying saucer movement and control of the flying saucer including when it gets grabbed and thrown by a tornado. 
 
 ## Unfathomable Titans
 
